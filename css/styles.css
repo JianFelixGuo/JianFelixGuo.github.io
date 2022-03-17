@@ -11433,3 +11433,55 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+#downloadBtn {
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #8AC1E0;
+  /* Set a background color */
+  color: black;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */ }
+  @media only screen and (max-width: 414px) {
+    #downloadBtn {
+      background-color: #8AC1E0;
+      /* Set a background color */
+      bottom: 10px;
+      /* Place the button at the bottom of the page */
+      right: 15px;
+      /* Place the button 30px from the right */
+      padding: 8px;
+      /* Some padding */
+      border-radius: 5px;
+      /* Rounded corners */
+      font-size: 9px;
+      /* Increase font size */ } }
+
+#downloadBtn:hover {
+  background-color: #8AC1E0 !important;
+  /* Add a dark-grey background on hover */ }
+
+.downloadIcon {
+  margin-right: 10px; }
+  @media only screen and (max-width: 414px) {
+    .downloadIcon {
+      margin-right: 5px;
+      width: 40%;
+      height: auto; } }
